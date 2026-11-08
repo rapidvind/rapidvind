@@ -1,6 +1,6 @@
 Data Scientist / Data Engineer · MSc Data Science, University of Skövde, Sweden · interested in ML for games and gameplay telemetry
 
-<img src="koi/koi.gif" width="256" alt="My koi" />
+<img src="koi/koi.gif" width="512" style="image-rendering: pixelated;" alt="My koi" />
 
 *redrawn nightly from my GitHub activity*
 
