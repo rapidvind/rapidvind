@@ -13,7 +13,7 @@ Currently: MSc in Data Science at the University of Skövde, and looking for an 
 | Project | What it is | Key result |
 |---|---|---|
 | [osu-pulse](https://github.com/rapidvind/osu-pulse) | Real-time osu!mania telemetry (session > play > miss events) with an unsupervised ML layer: clustering, anomaly detection, regression | Every method checked against a baseline; random forest R² 0.71 vs 0.01 for the Poisson baseline |
-| [ManiaMapper](https://github.com/rapidvind/ManiaMapper) | Generates playable osu!mania beatmaps from raw audio with a style-conditioned LSTM (10 play styles) | Shipped end to end as a public web app on GCP |
+| [ManiaMapper](https://github.com/rapidvind/ManiaMapper) | Generates playable osu!mania beatmaps from raw audio with a difficulty-conditioned encoder-decoder (BiLSTM + causal LSTM, ~7M parameters) | Shipped end to end as a FastAPI web app on GCP |
 | [mariokart8-build-prediction](https://github.com/rapidvind/mariokart8-build-prediction) | Hand-built 52-track dataset predicting the best build per track | Found target leakage behind a fake R² of 0.99; honest result traced to players converging on 6 meta builds |
 | [k8s-traffic-autoscaling-lab](https://github.com/rapidvind/k8s-traffic-autoscaling-lab) | Local multi-node Kubernetes cluster with traffic-driven autoscaling (HPA) | Full setup and debugging docs |
 
